@@ -15,8 +15,8 @@ Key facts:
 
 Links:
 - [App Store](https://apps.apple.com/app/id6787789876)
-- [FAQ](https://fitnessapp401.github.io/faq/)
-- [Choosing a workout app as a beginner over 40](https://fitnessapp401.github.io/workout-app-for-beginners-over-40/)
-- [Strength training at home for beginners](https://fitnessapp401.github.io/strength-training-at-home-for-beginners/)
-- [Privacy policy](https://fitnessapp401.github.io/privacy/)
-- [Support](https://fitnessapp401.github.io/support/)
+- [FAQ](https://destinationhealth.app/faq/)
+- [Choosing a workout app as a beginner over 40](https://destinationhealth.app/workout-app-for-beginners-over-40/)
+- [Strength training at home for beginners](https://destinationhealth.app/strength-training-at-home-for-beginners/)
+- [Privacy policy](https://destinationhealth.app/privacy/)
+- [Support](https://destinationhealth.app/support/)
