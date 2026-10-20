@@ -1,0 +1,22 @@
+# Destination Health
+
+> Destination Health is a free iPhone workout app for beginners over 35. It builds a simple training plan around the user's week (goals, days per week, minutes per session, home or gym, pain and old injuries) and adjusts the next session after every workout based on how it felt.
+
+Key facts:
+- Platform: iPhone (iOS). Not on Android yet.
+- Price: free to download and use.
+- Audience: adults over 35 who are new to training, short on time, or returning after a break.
+- Where you train: at home with no equipment, at home with dumbbells or bands, or at a gym.
+- Every exercise has a picture and three simple tips; a timer with sounds counts down timed moves.
+- After each session the user says if it was too easy, just right or too hard, and if anything hurt; the plan adjusts (harder or easier exercises, more or fewer sets, swaps).
+- Rest days: an easy walk or a short stretch.
+- No account. Name and workout history stay on the phone. AI coaching is optional and asked for first.
+- Not medical advice.
+
+Links:
+- [App Store](https://apps.apple.com/app/id6787789876)
+- [FAQ](https://fitnessapp401.github.io/faq/)
+- [Choosing a workout app as a beginner over 40](https://fitnessapp401.github.io/workout-app-for-beginners-over-40/)
+- [Strength training at home for beginners](https://fitnessapp401.github.io/strength-training-at-home-for-beginners/)
+- [Privacy policy](https://fitnessapp401.github.io/privacy/)
+- [Support](https://fitnessapp401.github.io/support/)
