@@ -31,7 +31,7 @@
 <body>
 <main>
   <h1>Destination Health Privacy Policy</h1>
-  <p class="meta">Last updated: October 19, 2026</p>
+  <p class="meta">Last updated: October 20, 2026</p>
 
   <p>Destination Health is a training app that builds simple workouts for you and adjusts them as you go. This policy explains what information the app uses, where it goes, and what you can do about it. We have tried to keep it short and plain.</p>
 
@@ -41,7 +41,8 @@
       <li>Your name, your answers and your workout history are stored <strong>on your phone</strong>.</li>
       <li>Your <strong>name is never sent</strong> anywhere.</li>
       <li>If you turn on <strong>AI coaching</strong> (it asks first, and you can turn it off any time in Settings), your answers and workout feedback are sent to an AI provider so your plan can be adjusted.</li>
-      <li>We keep <strong>one app-wide counter</strong> of how often the app is opened. Nothing in it is about you.</li>
+      <li>We count <strong>anonymous usage</strong>, like how many people finish setup or a workout, tied to a random install ID. Nothing in it says who you are.</li>
+      <li>Subscriptions are handled by <strong>Apple</strong>. We only learn whether your Premium is active, never your payment details.</li>
       <li>We <strong>do not sell</strong> your data and we do not show ads.</li>
     </ul>
   </div>
@@ -63,9 +64,12 @@
 
   <h3>Sent to us automatically</h3>
   <ul>
-    <li><strong>One app-wide counter.</strong> Each time the app is opened, one shared counter goes up by one. Nothing that identifies you or your phone is stored with it. We use it to see roughly how much Destination Health is used.</li>
     <li><strong>For AI requests only:</strong> a random ID that the app creates on your phone, and your IP address, reach our server so we can apply a daily limit per device and per network and prevent misuse. The ID is not your name and cannot be traced to you by us. These counters are kept for about two days.</li>
+    <li><strong>Anonymous usage events.</strong> When you use the app, it sends short events such as "setup step reached", "plan built", "workout finished" (with its type, length and whether it felt easy, okay or hard) and "free week started". They are tied to a random install ID, not to your name, Apple ID or email, and we do not build profiles of people. We use them to see where the app is confusing and what to improve. Your IP address is not used to look up your location.</li>
   </ul>
+
+  <h3>Subscriptions</h3>
+  <p>Premium is sold through Apple's App Store. Apple handles the payment; we never see your card or Apple ID details. To know whether your Premium or free week is active, the app uses RevenueCat, which receives a random user ID and your purchase status from Apple (which plan, when it started and when it renews or ends). You manage or cancel your subscription in your Apple account settings.</p>
   <p>We do not use advertising IDs, we do not track you across other apps or websites, and the app does not collect your location, contacts, camera or microphone.</p>
 
   <h2>3. AI coaching</h2>
@@ -98,7 +102,9 @@
       <tr><td>Anthropic</td><td>The AI model</td><td>The AI information in section 3, only if AI coaching is on</td></tr>
       <tr><td>Vercel</td><td>Hosts our server that connects the app to the AI</td><td>The AI requests as they pass through, and your IP address</td></tr>
       <tr><td>Upstash (Redis)</td><td>Short-lived daily counters to prevent misuse</td><td>The random device ID and IP address, for about two days, only for AI requests</td></tr>
-      <tr><td>Google (Firebase Firestore)</td><td>Storing the app-wide counter</td><td>The counter only. When the app adds to it, Google can see your IP address as part of the connection, but we store nothing about you</td></tr>
+      <tr><td>PostHog (EU)</td><td>Anonymous usage events</td><td>The events in section 2 and a random install ID. Stored in the EU</td></tr>
+      <tr><td>RevenueCat</td><td>Checking whether Premium is active</td><td>A random user ID and your purchase status from Apple</td></tr>
+      <tr><td>Apple</td><td>Payment for Premium</td><td>Your purchase, under Apple's own privacy policy</td></tr>
     </tbody>
   </table>
   <p>These providers may process data outside your own country, including in the United States. We do not sell your information and we do not share it for advertising.</p>
@@ -107,13 +113,15 @@
   <ul>
     <li><strong>Your consent</strong> for AI coaching and for the health information you choose to give. You can withdraw it at any time by turning off AI coaching in Settings or by resetting your progress.</li>
     <li><strong>Our legitimate interest</strong> in running the app, preventing misuse and counting how much the app is used.</li>
+    <li><strong>Our agreement with you</strong> when you subscribe to Premium, so we can give you what you paid for.</li>
   </ul>
 
   <h2>7. How long we keep it</h2>
   <ul>
     <li>On your phone: until you delete it, reset your progress or remove the app.</li>
     <li>Daily limit counters for AI requests: about two days.</li>
-    <li>The app-wide counter has nothing about you in it, so there is nothing to delete.</li>
+    <li>Anonymous usage events: up to 12 months, then deleted.</li>
+    <li>Purchase status at RevenueCat: as long as you have or had a subscription, so it can be restored.</li>
   </ul>
 
   <h2>8. Your choices and rights</h2>
